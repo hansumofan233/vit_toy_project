@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Conda / Python environments
+.venv/
+venv/
+env/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Training data
+data/
+datasets/
+
+# VS Code personal settings
+.vscode/
+
+# Training logs
+runs/
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.*
